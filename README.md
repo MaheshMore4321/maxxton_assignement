@@ -19,7 +19,7 @@
 >Path :: sd.sym.assignment.maxxton.service.CityPeriodService<br>
 
 #### Code Run Instruction
->$ git clone git@github.com:MaheshMore4321/maxxton_assignement.git<br>
+>$ git clone https://github.com/MaheshMore4321/maxxton_assignement.git<br>
 >$ cd maxxton_assignement<br>
 >$ mvn clean compile exec:java<br>
 
