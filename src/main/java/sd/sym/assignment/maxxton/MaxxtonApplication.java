@@ -14,10 +14,13 @@ public class MaxxtonApplication {
 		CityPeriodService cityPeriodService = new CityPeriodService();
 
 		List<CityPeriod> cityPeriodList = cityPeriodServiceData.getCityPeriodInputData();
-		System.out.println("Input :: cityPeriodList :: "+ cityPeriodList);
+		System.out.println("Input :: cityPeriodList :: ");
+		cityPeriodList.stream().forEach(System.out::println);
+
 		System.out.println();
 
 		List<CityPeriod> cpPrioritizedPeriodsList = cityPeriodService.getPrioritizedPeriods(cityPeriodList);
-		System.out.println("Output :: cpPrioritizedPeriodsList :: "+ cpPrioritizedPeriodsList);
+		System.out.println("Output :: cpPrioritizedPeriodsList :: ");
+		cpPrioritizedPeriodsList.stream().forEach(System.out::println);
 	}
 }

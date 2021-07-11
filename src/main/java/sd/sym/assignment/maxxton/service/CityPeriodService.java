@@ -49,6 +49,6 @@ public class CityPeriodService {
             }
         }
 
-        return new ArrayList<CityPeriod>(distinctMap.values());
+        return new ArrayList<>(distinctMap.values());
     }
 }
